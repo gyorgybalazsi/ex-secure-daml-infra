@@ -158,4 +158,6 @@ workflows:
     jobs:
       - ledger_test:
           daml_sdk_version: "1.5.0"
-      - write_results
+      - write_results:
+          requires:
+            - ledger_test
