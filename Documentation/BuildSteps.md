@@ -28,7 +28,7 @@ daml build
 We need to generate TypeScript code bindings for the compiled DAML model.
 At the root of the repository, run
 ```
-daml codegen js .daml/dist/ex-secure-daml-infra-0.1.0.dar -o daml.js
+daml codegen js .daml/dist/ex-secure-daml-infra-0.0.1.dar -o daml.js
 ```
 The latter command generates TypeScript packages in the `daml.js` directory.
 
